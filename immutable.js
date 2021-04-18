@@ -1,14 +1,14 @@
 module.exports = extend;
 
-var hasOwnProperty = Object.prototype.hasOwnProperty;
+const hasOwnProperty = Object.prototype.hasOwnProperty;
 
 function extend() {
-  var target = {};
+  let target = {};
 
-  for (var i = 0; i < arguments.length; i++) {
+  for (let i = 0; i < arguments.length; i++) {
     var source = arguments[i];
 
-    for (var key in source) {
+    for (let key in source) {
       if (hasOwnProperty.call(source, key)) {
         target[key] = source[key];
       }
