@@ -1,0 +1,29 @@
+{
+  "name": "web3-query",
+  "version": "1.0.0",
+  "description": "web3/ethereum query via json-rpc",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/web3-query.git"
+  },
+  "keywords": [
+    "web3",
+    "etheruem",
+    "query",
+    "json-rpc"
+  ],
+  "author": "sam bacha <sambacha@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambacha/web3-query/issues"
+  },
+  "homepage": "https://github.com/sambacha/web3-query#readme",
+  "devDependencies": {
+    "eth-rpc-errors": "^4.0.3"
+  }
+}
