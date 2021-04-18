@@ -1,4 +1,4 @@
-var RPCError = require('eth-rpc-errors');
+const RPCError = require('eth-rpc-errors');
 const isObject = require('./src/isObject.js');
 
 function parseEthereumResponse(response, callback) {
