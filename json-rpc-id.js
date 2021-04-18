@@ -2,8 +2,8 @@ module.exports = IdIterator;
 
 function IdIterator(opts) {
   opts = opts || {};
-  var max = opts.max || Number.MAX_SAFE_INTEGER;
-  var idCounter =
+  const max = opts.max || Number.MAX_SAFE_INTEGER;
+  const idCounter =
     typeof opts.start !== 'undefined'
       ? opts.start
       : Math.floor(Math.random() * max);
