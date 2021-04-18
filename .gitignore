@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+.yarn
+.npm
+*.logs
+*.tar.gz
+*.tgz
+*.zip
+*.tar
+coverage/
+.nyc_output
+lib-cov
+*.log
+npm-debug.log*
+logs
+build/
